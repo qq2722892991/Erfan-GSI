@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       ROM_URL:
-        description: '直链'
+        description: 'http://romdownload.nubia.com/%E7%BA%A2%E9%AD%947SPro/V2.34/NX709S-update.zip'
         required: true
         default: 'https://mirrorbits.lineageos.org/full/tissot/20230110/lineage-19.1-20230110-nightly-tissot-signed.zip'
       REPACK_NAME:
-        description: '打包名称'
+        description: 'RedMagicOS'
         required: true
-        default: '这里写名字哦.7z'
+        default: 'RedMagicOS.7z'
       ROM_TYPE:
-        description: 'ROM类型'
+        description: 'AB'
         required: true
         default: 'Generic'
 jobs:
